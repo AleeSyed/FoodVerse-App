@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "FoodVerse",
+    "slug": "foodverse",
+    "scheme": "foodverse",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "bundleIdentifier": "com.foodverse.app", "supportsTablet": true },
+    "android": { "package": "com.foodverse.app" },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router"]
+  }
+}

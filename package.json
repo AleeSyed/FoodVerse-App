@@ -1,0 +1,21 @@
+{
+  "name": "foodverse-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "setup": "npx expo install react react-native expo-router expo-linking expo-constants expo-status-bar react-native-screens react-native-safe-area-context @react-navigation/bottom-tabs @react-native-async-storage/async-storage && npx expo install --fix",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~57.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.0",
+    "@types/react": "~19.2.0"
+  }
+}
